@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JLCategory_Example' do
+  pod 'JLCategory', :path => '../'
+
+  target 'JLCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
